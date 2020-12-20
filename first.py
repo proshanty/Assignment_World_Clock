@@ -3,7 +3,7 @@ import time
 from datetime import date
 from datetime import datetime
 import pytz
-print("USA, India, Australia or Brazil")
+print("Enter country such as USA, India, Australia or Brazil")
 location=input()
 
 if location=="India":
