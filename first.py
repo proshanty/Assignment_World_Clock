@@ -4,9 +4,9 @@ from datetime import date
 from datetime import datetime
 import pytz
 print("USA, India, Australia or Brazil")
-b=input()
+location=input()
 
-if b=="India":
+if location=="India":
     app_window = Tk()
     app_window.title("Digital Time")
     app_window.geometry("600x600")
@@ -25,7 +25,7 @@ if b=="India":
         label.after(200, digital_clock)
     digital_clock()
     app_window.mainloop()
-if b=="USA":
+if location=="USA":
     app_window = Tk()
     app_window.title("Digital Time")
     app_window.geometry("600x600")
@@ -46,7 +46,7 @@ if b=="USA":
       label.after(200, digital_clock)
     digital_clock()
     app_window.mainloop()
-if b=="Australia":
+if location=="Australia":
     app_window = Tk()
     app_window.title("Digital Time")
     app_window.geometry("600x600")
@@ -67,7 +67,7 @@ if b=="Australia":
       label.after(200, digital_clock)
     digital_clock()
     app_window.mainloop()
-if b=="Brazil":
+if location=="Brazil":
     app_window = Tk()
     app_window.title("Digital Time")
     app_window.geometry("600x600")
